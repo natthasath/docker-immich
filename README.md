@@ -1,6 +1,6 @@
-# 🎉 Docker Hassio
+# 🎉 Docker Immich
 
-Hass.io is an open-source home automation platform that provides a web-based interface to control and automate smart devices, it is built on top of Home Assistant and includes an add-on store for additional functionality.
+Immich is a high-performance, self-hosted photo and video backup solution for personal servers. It offers automatic media organization, facial recognition, duplicate detection, and multi-user support, ensuring secure and efficient management of your media files.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
@@ -8,7 +8,7 @@ Hass.io is an open-source home automation platform that provides a web-based int
 
 ### 🏆 Run
 
-- [http://localhost:8123/](http://localhost:8123/) username : `admin` password : `admin`
+- [http://localhost:2283/](http://localhost:2283/) username : `admin` password : `admin`
 
 ```shell
 docker-compose up -d
