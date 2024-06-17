@@ -1,0 +1,24 @@
+2024-06-17 08:18:51.452 UTC [1] LOG:  starting PostgreSQL 14.10 (Debian 14.10-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2024-06-17 08:18:51.452 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2024-06-17 08:18:51.452 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2024-06-17 08:18:51.517 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2024-06-17 08:18:51.638 UTC [29] LOG:  database system was interrupted; last known up at 2024-06-15 08:29:23 UTC
+[2024-06-17T08:18:51Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17331".
+[2024-06-17T08:18:51Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332".
+[2024-06-17T08:18:51Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17331/segments/9d67b95f-f2c9-4b9a-80ce-642c9973a094".
+[2024-06-17T08:18:51Z INFO  service::utils::clean] Find directory "pg_vectors/indexes/17332/segments/57b80276-157d-433f-bb8f-7d5f3ec00cde".
+2024-06-17 08:19:00.415 UTC [45] FATAL:  the database system is starting up
+2024-06-17 08:19:00.426 UTC [46] FATAL:  the database system is starting up
+2024-06-17 08:19:03.436 UTC [47] FATAL:  the database system is starting up
+2024-06-17 08:19:03.452 UTC [48] FATAL:  the database system is starting up
+2024-06-17 08:19:06.440 UTC [49] FATAL:  the database system is starting up
+2024-06-17 08:19:06.455 UTC [50] FATAL:  the database system is starting up
+2024-06-17 08:19:09.444 UTC [51] FATAL:  the database system is starting up
+2024-06-17 08:19:09.458 UTC [52] FATAL:  the database system is starting up
+2024-06-17 08:19:12.446 UTC [53] FATAL:  the database system is starting up
+2024-06-17 08:19:12.462 UTC [54] FATAL:  the database system is starting up
+2024-06-17 08:19:13.081 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-06-17 08:19:13.115 UTC [29] LOG:  redo starts at 0/2D6DDA80
+2024-06-17 08:19:13.137 UTC [29] LOG:  invalid record length at 0/2D6DECD8: wanted 24, got 0
+2024-06-17 08:19:13.137 UTC [29] LOG:  redo done at 0/2D6DECB0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.02 s
+2024-06-17 08:19:13.318 UTC [1] LOG:  database system is ready to accept connections
