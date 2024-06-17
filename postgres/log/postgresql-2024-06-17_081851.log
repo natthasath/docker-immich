@@ -22,3 +22,9 @@
 2024-06-17 08:19:13.137 UTC [29] LOG:  invalid record length at 0/2D6DECD8: wanted 24, got 0
 2024-06-17 08:19:13.137 UTC [29] LOG:  redo done at 0/2D6DECB0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.02 s
 2024-06-17 08:19:13.318 UTC [1] LOG:  database system is ready to accept connections
+2024-06-17 08:19:19.937 UTC [77] FATAL:  role "root" does not exist
+2024-06-17 08:24:20.113 UTC [92] FATAL:  role "root" does not exist
+2024-06-17 08:29:20.196 UTC [107] FATAL:  role "root" does not exist
+2024-06-17 08:34:20.279 UTC [122] FATAL:  role "root" does not exist
+2024-06-17 08:39:20.394 UTC [137] FATAL:  role "root" does not exist
+2024-06-17 08:44:20.528 UTC [152] FATAL:  role "root" does not exist

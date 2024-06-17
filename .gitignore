@@ -2,3 +2,4 @@
 .db
 /uploads/*
 /library/upload/*
+/postgres/*
