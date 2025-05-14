@@ -19,6 +19,11 @@ services:
     depends_on:
       - redis
       - postgres
+    healthcheck:
+      test: curl --fail http://localhost:3001/server-info/ping || exit 1
+      interval: ${HEALTHCHECK_INTERVAL}
+      timeout: ${HEALTHCHECK_TIMEOUT}
+      retries: ${HEALTHCHECK_RETRIES}
 
   immich-machine-learning:
     container_name: ${IMMICH_ML_CONTAINER_NAME}
@@ -32,6 +37,11 @@ services:
       - default:/cache
     networks:
       - default
+    healthcheck:
+      test: curl --fail http://localhost:3003/ping || exit 1
+      interval: ${HEALTHCHECK_INTERVAL}
+      timeout: ${HEALTHCHECK_TIMEOUT}
+      retries: ${HEALTHCHECK_RETRIES}
 
   redis:
     container_name: ${REDIS_CONTAINER_NAME}
