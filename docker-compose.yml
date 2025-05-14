@@ -1,4 +1,4 @@
-name: immich
+name: ${GLOBAL_NAME}
 
 services:
   immich-server:
